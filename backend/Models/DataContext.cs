@@ -9,5 +9,7 @@ namespace Music_Game.Models
         public DbSet<Game> Games { get; set; }
         public DbSet<Player> Players { get; set; }
         public DbSet<Card> Cards { get; set; }
+
+        // Define other DbSet properties as needed
     }
 }

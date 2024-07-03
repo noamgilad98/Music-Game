@@ -38,4 +38,11 @@ namespace Music_Game.Controllers
             return Ok(url);
         }
     }
+
+    public class PlayerTurnRequest
+    {
+        public Game Game { get; set; }
+        public Player Player { get; set; }
+        public Card Card { get; set; }
+    }
 }

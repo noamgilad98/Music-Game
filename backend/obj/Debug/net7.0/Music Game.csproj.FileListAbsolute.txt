@@ -67,7 +67,6 @@
 /Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.genruntimeconfig.cache
 /Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/ref/Music Game.dll
 <<<<<<< HEAD
-/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/appsettings.Development.json
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/appsettings.Development.json
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/appsettings.json
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Music Game.staticwebassets.runtime.json
@@ -76,22 +75,17 @@
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Music Game.runtimeconfig.json
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Music Game.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Music Game.pdb
-/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Humanizer.dll
-/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.AspNetCore.SpaServices.Extensions.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
-/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/SpotifyAPI.Web.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/SQLitePCLRaw.core.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
-/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/System.CodeDom.dll
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
 /Applications/Repos/Music-Game/backend/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
@@ -137,3 +131,12 @@
 /Applications/Repos/Music-Game/backend/obj/Debug/net7.0/ref/Music Game.dll
 =======
 >>>>>>> 97eabd4e2c89adabeb6f5b23a41fffe6830b5316
+/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Applications/Repos/Music-Game/backend/obj/Debug/net7.0/Music Game.MvcApplicationPartsAssemblyInfo.cs
+/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Humanizer.dll
+/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Applications/Repos/Music-Game/backend/bin/Debug/net7.0/System.CodeDom.dll
