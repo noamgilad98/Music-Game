@@ -1,54 +1,45 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using Music_Game.Models;
+using Microsoft.Extensions.Hosting;
+using Swashbuckle.AspNetCore.Swagger;
 using Music_Game.Services;
+using Music_Game.Models; // Ensure this matches your namespace
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<DataContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// Add services for DI
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<DataContext>(); // Ensure you have added Microsoft.EntityFrameworkCore
 builder.Services.AddScoped<GameService>();
 builder.Services.AddScoped<SpotifyService>();
 
-// Allow CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:3000")
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
 });
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseDeveloperExceptionPage();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
-// Enable CORS
-app.UseCors("AllowAll");
-
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseCors();
+
 app.MapControllers();
-
-app.MapFallbackToFile("index.html");
-
-app.UseSpa(spa =>
-{
-    spa.Options.SourcePath = "../frontend";
-
-    if (app.Environment.IsDevelopment())
-    {
-        spa.UseProxyToSpaDevelopmentServer("http://localhost:3000");
-    }
-});
 
 app.Run();

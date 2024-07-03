@@ -1,6 +1,7 @@
 ﻿using SpotifyAPI.Web;
+using Music_Game.Models; // Ensure this matches your namespace
+using System;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
 
 namespace Music_Game.Services
 {
@@ -10,11 +11,16 @@ namespace Music_Game.Services
 
         public SpotifyService(IConfiguration configuration)
         {
-            var clientId = configuration["Spotify:ClientId"] ?? throw new ArgumentNullException("Spotify:ClientId");
-            var clientSecret = configuration["Spotify:ClientSecret"] ?? throw new ArgumentNullException("Spotify:ClientSecret");
+            var clientId = configuration["Spotify:ClientId"];
+            var clientSecret = configuration["Spotify:ClientSecret"];
 
-            var config = SpotifyClientConfig.CreateDefault()
-                .WithAuthenticator(new ClientCredentialsAuthenticator(clientId, clientSecret));
+            if (clientId == null || clientSecret == null)
+            {
+                throw new ArgumentNullException("Spotify client ID or secret is missing.");
+            }
+
+            var authenticator = new ClientCredentialsAuthenticator(clientId, clientSecret);
+            var config = SpotifyClientConfig.CreateDefault().WithAuthenticator(authenticator);
 
             _spotifyClient = new SpotifyClient(config);
         }
