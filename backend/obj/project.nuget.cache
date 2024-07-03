@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tPvx6B9xx/bU3i0cRKsX8JruU5Mhgt4AXqwEIe8+1GOqSP/NFLfA54YxDzJ5lJZr7WyTTvyoe9/WxrOsPjrWAQ==",
+  "dgSpecHash": "Wys+SRuP96Gm8geU82TmLU8SDkcfwaE0KMoAvoYvQyI3648uPpb2c2BNVONd8uh4KR+d9g/RSNvumied1Q1GeA==",
   "success": true,
-  "projectFilePath": "/Users/noamgilad/Projects/Music Game/backend/Music Game.csproj",
+  "projectFilePath": "/Applications/Repos/Music-Game/backend/Music Game.csproj",
   "expectedPackageFiles": [
     "/Users/noamgilad/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/noamgilad/.nuget/packages/microsoft.aspnetcore.spaservices.extensions/7.0.0/microsoft.aspnetcore.spaservices.extensions.7.0.0.nupkg.sha512",

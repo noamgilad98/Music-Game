@@ -1,41 +1,40 @@
 {
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
       {
-        "name": "Run Frontend",
-        "type": "node",
-        "request": "launch",
-        "program": "${workspaceFolder}/frontend/node_modules/react-scripts/scripts/start.js",
-        "cwd": "${workspaceFolder}/frontend",
-        "console": "integratedTerminal",
-        "internalConsoleOptions": "neverOpen"
+          "name": "Run Frontend",
+          "type": "node",
+          "request": "launch",
+          "program": "${workspaceFolder}/frontend/node_modules/react-scripts/scripts/start.js",
+          "cwd": "${workspaceFolder}/frontend",
+          "console": "integratedTerminal",
+          "internalConsoleOptions": "neverOpen"
       },
       {
-        "name": "Run Backend",
-        "type": "coreclr",
-        "request": "launch",
-        "preLaunchTask": "Run Backend",
-        "program": "${workspaceFolder}/backend/bin/Debug/net7.0/Music Game.dll",
-        "args": [],
-        "cwd": "${workspaceFolder}/backend",
-        "stopAtEntry": false,
-        "serverReadyAction": {
-          "action": "openExternally",
-          "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
-        },
-        "env": {
-          "ASPNETCORE_ENVIRONMENT": "Development"
-        },
-        "sourceFileMap": {
-          "/Views": "${workspaceFolder}/Views"
-        }
+          "name": "Run Backend",
+          "type": "coreclr",
+          "request": "launch",
+          "preLaunchTask": "Run Backend",
+          "program": "${workspaceFolder}/backend/bin/Debug/net7.0/Music Game.dll",
+          "args": [],
+          "cwd": "${workspaceFolder}/backend",
+          "stopAtEntry": false,
+          "serverReadyAction": {
+              "action": "openExternally",
+              "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+          },
+          "env": {
+              "ASPNETCORE_ENVIRONMENT": "Development"
+          },
+          "sourceFileMap": {
+              "/Views": "${workspaceFolder}/Views"
+          }
       }
-    ],
-    "compounds": [
+  ],
+  "compounds": [
       {
-        "name": "Launch Both",
-        "configurations": ["Run Backend", "Run Frontend"]
+          "name": "Launch Both",
+          "configurations": ["Run Backend", "Run Frontend"]
       }
-    ]
-  }
-  
+  ]
+}

@@ -1553,11 +1553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/noamgilad/Projects/Music Game/backend/Music Game.csproj",
+      "projectUniqueName": "/Applications/Repos/Music-Game/backend/Music Game.csproj",
       "projectName": "Music Game",
-      "projectPath": "/Users/noamgilad/Projects/Music Game/backend/Music Game.csproj",
+      "projectPath": "/Applications/Repos/Music-Game/backend/Music Game.csproj",
       "packagesPath": "/Users/noamgilad/.nuget/packages/",
-      "outputPath": "/Users/noamgilad/Projects/Music Game/backend/obj/",
+      "outputPath": "/Applications/Repos/Music-Game/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/noamgilad/.nuget/NuGet/NuGet.Config"
