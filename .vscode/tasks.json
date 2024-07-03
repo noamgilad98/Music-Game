@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Backend",
+        "type": "shell",
+        "command": "dotnet run",
+        "group": "build",
+        "problemMatcher": [],
+        "detail": "Run the backend .NET server",
+        "options": {
+          "cwd": "${workspaceFolder}/backend"
+        }
+      },
+      {
+        "label": "Run Frontend",
+        "type": "shell",
+        "command": "npm start",
+        "group": "build",
+        "problemMatcher": [],
+        "detail": "Run the frontend React server",
+        "options": {
+          "cwd": "${workspaceFolder}/frontend"
+        }
+      },
+      {
+        "label": "Run Both",
+        "dependsOn": ["Run Backend", "Run Frontend"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  

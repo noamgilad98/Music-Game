@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{4838204B-38A4-4AED-94DA-8E435D964AD2}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Music Game/Controllers/GameController.cs">
+    <Files>
+      <File FileName="Music Game/Services/SpotifyService.cs" Line="23" Column="1" />
+      <File FileName="Music Game/Models/Game.cs" Line="24" Column="1" />
+      <File FileName="Music Game/Services/GameService.cs" Line="26" Column="1" />
+      <File FileName="Music Game/Controllers/GameController.cs" Line="35" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Music Game" expanded="True">
+            <Node name="Music Game">
+              <Node name="Controllers" expanded="True">
+                <Node name="GameController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Music_220Game PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
