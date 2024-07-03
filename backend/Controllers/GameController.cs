@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 using Music_Game.Services;
+using System.Threading.Tasks;
 using Music_Game.Models;
 
 namespace Music_Game.Controllers
@@ -29,6 +29,13 @@ namespace Music_Game.Controllers
             await _gameService.PlayerTurnAsync(request.Game, request.Player, request.Card);
             var isValid = _gameService.ValidatePlacement(request.Game, request.Card, request.Card.ReleaseDate);
             return Ok(isValid);
+        }
+
+        [HttpGet("randomsong")]
+        public async Task<ActionResult<string>> GetRandomSongUrl()
+        {
+            var url = await _gameService.GetRandomSongUrlAsync();
+            return Ok(url);
         }
     }
 }

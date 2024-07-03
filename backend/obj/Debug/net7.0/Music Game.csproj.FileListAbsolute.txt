@@ -1,3 +1,12 @@
+/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.csproj.AssemblyReference.cache
+/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.AssemblyInfoInputs.cache
+/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.AssemblyInfo.cs
+/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.csproj.CoreCompileInputs.cache
+/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.MvcApplicationPartsAssemblyInfo.cs
+/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.MvcApplicationPartsAssemblyInfo.cache
+/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.sourcelink.json
+/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/appsettings.Development.json
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/appsettings.json
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Music Game.staticwebassets.runtime.json
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Music Game
@@ -5,22 +14,22 @@
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Music Game.runtimeconfig.json
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Music Game.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Music Game.pdb
-/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Humanizer.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.AspNetCore.SpaServices.Extensions.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
-/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Microsoft.OpenApi.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/SpotifyAPI.Web.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/SQLitePCLRaw.core.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
-/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/System.CodeDom.dll
+/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
@@ -43,13 +52,6 @@
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.csproj.AssemblyReference.cache
-/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.GeneratedMSBuildEditorConfig.editorconfig
-/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.AssemblyInfoInputs.cache
-/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.AssemblyInfo.cs
-/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.csproj.CoreCompileInputs.cache
-/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.MvcApplicationPartsAssemblyInfo.cache
-/Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.sourcelink.json
 /Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/staticwebassets.build.json
 /Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/staticwebassets.development.json
 /Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/staticwebassets/msbuild.Music Game.Microsoft.AspNetCore.StaticWebAssets.props
@@ -64,4 +66,3 @@
 /Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.pdb
 /Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/Music Game.genruntimeconfig.cache
 /Users/noamgilad/Projects/Music Game/backend/obj/Debug/net7.0/ref/Music Game.dll
-/Users/noamgilad/Projects/Music Game/backend/bin/Debug/net7.0/appsettings.Development.json
