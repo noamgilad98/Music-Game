@@ -4,14 +4,14 @@ import axios from 'axios';
 function App() {
   const [songUrl, setSongUrl] = useState(null);
   const [gameStatus, setGameStatus] = useState(null);
-  const [gameData, setGameData] = useState(null); // New state for game data
+  const [gameData, setGameData] = useState(null);
 
   const startGame = async () => {
     try {
       const response = await axios.post('/api/Game/start');
       console.log('Game started:', response.data);
       setGameStatus('Game started successfully!');
-      setGameData(response.data); // Set the game data response
+      setGameData(response.data);
     } catch (error) {
       console.error('Error starting game:', error);
       alert('Error starting game. Check the console for details.');
@@ -25,8 +25,6 @@ function App() {
       if (songUrl) {
         console.log('Playing song:', songUrl);
         setSongUrl(songUrl);
-        const audio = new Audio(songUrl);
-        audio.play();
       } else {
         console.log('No song URL returned. Check the server logs for details.');
         alert('No song URL returned. Check the server logs for details.');
@@ -50,10 +48,13 @@ function App() {
         </div>
       )}
       {songUrl && (
-        <audio controls autoPlay>
-          <source src={songUrl} type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
+        <div>
+          <h2>Now Playing</h2>
+          <audio controls autoPlay>
+            <source src={songUrl} type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
       )}
     </div>
   );

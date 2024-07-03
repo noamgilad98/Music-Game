@@ -8,7 +8,7 @@ namespace Music_Game.Models
         public string SongId { get; set; } = string.Empty;
         public string SongName { get; set; } = string.Empty;
         public string Artist { get; set; } = string.Empty;
-        public DateTime ReleaseDate { get; set; }
+        public int ReleaseYear { get; set; }
         public string GameLogo { get; set; } = string.Empty;
     }
 }
